@@ -1,7 +1,14 @@
 # Akbank_Makine_Ogrenmesine_Giris_Bootcamp
+## Kaggle Notebook
+
+Projeyi Kaggle üzerinde görüntülemek için aşağıdaki bağlantıya tıklayabilirsiniz:
+
+[Kaggle Notebook Linkim](https://www.kaggle.com/code/merygcl/d-nyadan-covid-19-verileri)
+
+
 Bu Jupyter Notebook projesi, COVID-19 salgınının küresel verilerini analiz etmeyi ve görselleştirmeyi amaçlamaktadır. Proje, salgının zamansal eğilimlerini, coğrafi dağılımını ve sosyo-ekonomik faktörlerle ilişkisini inceleyerek, COVID-19'un dünya üzerindeki etkilerini anlamlandırmaya çalışmaktadır.
 
-Kullanılan Veriler
+## Kullanılan Veriler
 Projede, Kaggle'dan temin edilen ve dünya genelindeki COVID-19 verilerini içeren owid-covid-data.csv adlı CSV dosyası kullanılmıştır. Bu veri seti, geniş bir yelpazede bilgileri barındırmaktadır:
 
 Coğrafi ve Zamansal Bilgiler: iso_code, continent, location (ülke), date.
@@ -14,7 +21,7 @@ Hükümet Tedbirleri: stringency_index (sıkı önlemler endeksi).
 Aşırı Ölüm Oranları: excess_mortality_cumulative_absolute, excess_mortality_cumulative, excess_mortality, excess_mortality_cumulative_per_million.
 Veri seti, 220.343 satır ve 67 sütundan oluşmaktadır. Veri ön işleme adımlarında, date sütunu datetime formatına dönüştürülmüş ve sayısal sütunlardaki eksik değerler (NaN) 0 ile doldurulmuştur. Ancak, continent gibi bazı kategorik sütunlarda eksik değerler korunmuştur.
 
-Analizler ve Sonuçlar
+## Analizler ve Sonuçlar
 Projede gerçekleştirilen temel analizler ve elde edilen olası sonuçlar şunlardır:
 
 Küresel Vaka ve Ölüm Eğilimleri:
